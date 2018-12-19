@@ -1,0 +1,23 @@
+{
+  "name": "claimAccount",
+  "version": "1.0.0",
+  "description": "Claim an account for free ",
+  "main": "claimAccount.js",
+  "scripts": {
+    "start": "node ./claimer.js"
+  },
+  "dependencies": {
+    "event-stream": "^4.0.0",
+    "express": "^4.16.2",
+    "mssql": "^4.2.1",
+    "mysql": "^2.16.0",
+    "steem": "^0.7.2",
+    "xmlhttprequest": "^1.8.0",
+    "dotenv": "^6.1.0",
+    "dsteem": "^0.10.1",
+    "dsteem-hf20": "^0.10.9"
+  },
+  "devDependencies": {},
+  "author": "Martin Lees",
+  "license": "MIT"
+}
